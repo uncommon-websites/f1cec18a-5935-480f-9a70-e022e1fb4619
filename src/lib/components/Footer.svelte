@@ -5,14 +5,14 @@
 <footer class="bg-brand-dark text-white pt-32 pb-12 overflow-hidden relative font-sans">
     <div class="max-w-7xl mx-auto px-4 relative z-10">
         <div class="text-center mb-24">
-             <span class="text-[10px] font-bold uppercase tracking-widest border border-white/20 px-3 py-1.5 rounded-full mb-8 inline-block">Strategy Sessions</span>
-             <h2 class="text-5xl md:text-7xl font-serif-display mb-6">Get in leader,<br/> we're driving growth.</h2>
-             <p class="text-gray-400 mb-10 max-w-lg mx-auto text-sm">Work directly with our expert team to create your content gameplan, and help you unlock a better system and scale your result to success.</p>
+             <span class="text-[10px] font-bold uppercase tracking-widest border border-white/20 px-3 py-1.5 rounded-full mb-8 inline-block">Join Closed Beta</span>
+             <h2 class="text-5xl md:text-7xl font-serif-display mb-6">Ready to innovate<br/> 10x faster?</h2>
+             <p class="text-gray-400 mb-10 max-w-lg mx-auto text-sm">Join the waitlist for early access to TheConsumer AI. Limited spots available for FMCG innovation teams.</p>
              
              <div class="flex flex-col sm:flex-row justify-center gap-2 max-w-md mx-auto">
                  <input type="email" placeholder="Enter your work email" class="bg-white/5 border border-white/10 rounded-lg px-4 py-3 w-full text-white placeholder-gray-500 focus:outline-none focus:border-brand-green transition-colors" />
-                 <button class="bg-brand-green hover:bg-brand-green-hover text-gray-900 px-6 py-3 rounded-lg font-bold whitespace-nowrap transition-colors flex items-center justify-center">
-                     Book a Demo 
+                 <button class="bg-brand-green hover:bg-brand-green-hover text-white px-6 py-3 rounded-lg font-bold whitespace-nowrap transition-colors flex items-center justify-center">
+                     Join Waitlist 
                      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                  </button>
              </div>

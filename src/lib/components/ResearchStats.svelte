@@ -3,16 +3,16 @@
         
         <!-- Header Cell -->
         <div class="p-8 border-r border-b border-white/10 md:col-span-1">
-            <h2 class="text-3xl font-serif-display leading-tight mb-4">From our research to your roadmap</h2>
+            <h2 class="text-3xl font-serif-display leading-tight mb-4">Validated performance metrics</h2>
         </div>
 
         <!-- Empty/Description Cell -->
         <div class="p-8 border-r border-b border-white/10 md:col-span-3 flex items-center">
             <p class="text-sm text-gray-400 max-w-xl">
-                AI search evolves fast. Our research team looks at what's changing, what's working and shares it so you can prioritize what's next.
+                Our AI panels are continuously validated against traditional research methods. These metrics show real-world accuracy across hundreds of FMCG concept tests.
                 <br/><br/>
                 <a href="#" class="inline-flex items-center text-brand-green text-xs font-bold uppercase tracking-widest hover:underline">
-                    See The Deep Dives <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    View Methodology <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 </a>
             </p>
         </div>
@@ -20,41 +20,41 @@
         <!-- Stat 1 -->
         <div class="p-8 border-r border-b border-white/10 h-80 flex flex-col justify-between group hover:bg-white/5 transition-colors">
             <div>
-                <h3 class="text-lg font-medium mb-4">Third-party content is responsible for</h3>
-                <div class="text-6xl font-serif-display text-brand-green mb-2">85%<span class="text-3xl align-top">↑</span></div>
-                <p class="text-xs text-gray-400">of brand awareness in commercial search.</p>
+                <h3 class="text-lg font-medium mb-4">Average accuracy correlation</h3>
+                <div class="text-6xl font-serif-display text-brand-green mb-2">89%</div>
+                <p class="text-xs text-gray-400">with traditional consumer panel results across all FMCG categories.</p>
             </div>
-            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">Read the Report <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
+            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">View Validation Study <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
         </div>
 
         <!-- Stat 2 -->
         <div class="p-8 border-r border-b border-white/10 h-80 flex flex-col justify-between group hover:bg-white/5 transition-colors">
             <div>
-                <h3 class="text-lg font-medium mb-4">Fresh content earns</h3>
-                <div class="text-6xl font-serif-display text-brand-green mb-2">70%<span class="text-3xl align-top">↑</span></div>
-                <p class="text-xs text-gray-400">more citations in AI search.</p>
+                <h3 class="text-lg font-medium mb-4">Time savings vs traditional</h3>
+                <div class="text-6xl font-serif-display text-brand-green mb-2">98%</div>
+                <p class="text-xs text-gray-400">faster insights—minutes instead of 4-6 weeks for traditional panels.</p>
             </div>
-            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">Read the Report <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
+            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">See Comparison <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
         </div>
 
         <!-- Stat 3 -->
         <div class="p-8 border-r border-b border-white/10 h-80 flex flex-col justify-between group hover:bg-white/5 transition-colors">
             <div>
-                <h3 class="text-lg font-medium mb-4">Visibility decreases</h3>
-                <div class="text-6xl font-serif-display text-brand-green mb-2">50%<span class="text-3xl align-top">↓</span></div>
-                <p class="text-xs text-gray-400">without refreshing content every 12 months or less.</p>
+                <h3 class="text-lg font-medium mb-4">Cost reduction</h3>
+                <div class="text-6xl font-serif-display text-brand-green mb-2">90%</div>
+                <p class="text-xs text-gray-400">lower cost per test compared to traditional consumer research methods.</p>
             </div>
-            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">Read the Report <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
+            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">View Pricing <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
         </div>
 
         <!-- Stat 4 -->
         <div class="p-8 border-r border-b border-white/10 h-80 flex flex-col justify-between group hover:bg-white/5 transition-colors">
             <div>
-                <h3 class="text-lg font-medium mb-4">Structured data were seen in</h3>
-                <div class="text-6xl font-serif-display text-brand-green mb-2">23%</div>
-                <p class="text-xs text-gray-400">of all AI search results related to SaaS.</p>
+                <h3 class="text-lg font-medium mb-4">Concepts tested in beta</h3>
+                <div class="text-6xl font-serif-display text-brand-green mb-2">500+</div>
+                <p class="text-xs text-gray-400">across beverage, snacks, personal care, and food categories.</p>
             </div>
-            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">Read the Report <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
+            <a href="#" class="text-xs font-bold flex items-center opacity-50 group-hover:opacity-100 transition-opacity">Join Beta <svg class="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></a>
         </div>
 
     </div>

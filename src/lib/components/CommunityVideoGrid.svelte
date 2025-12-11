@@ -1,42 +1,38 @@
 <section class="py-24 bg-white border-t border-gray-200 font-sans">
     <div class="max-w-7xl mx-auto px-4 text-center mb-16">
-        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-widest border border-gray-200 px-3 py-1.5 rounded-full bg-gray-50">Content Engineering Certification</span>
-        <h2 class="mt-8 text-5xl md:text-6xl font-serif-display text-gray-900">Learning pays off. <br/> Literally.</h2>
-        <p class="mt-6 text-gray-600 max-w-2xl mx-auto">Discover the Content Engineering principles that really move the needle for the pros now, and lead the next era of content marketing.</p>
-        <div class="mt-8">
-            <a href="#" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-sm font-bold rounded bg-gray-900 text-white hover:bg-gray-800 transition-colors">
-                Learn more about Content Engineering ->
-            </a>
-        </div>
+        <span class="text-[10px] font-bold text-gray-500 uppercase tracking-widest border border-gray-200 px-3 py-1.5 rounded-full bg-gray-50">Trusted Data Sources</span>
+        <h2 class="mt-8 text-5xl md:text-6xl font-serif-display text-gray-900">Grounded in <br/> real behavioral data</h2>
+        <p class="mt-6 text-gray-600 max-w-2xl mx-auto">Our AI panels are trained on behavioral data from the world's most trusted research organizations. Real data, real insights.</p>
     </div>
 
-    <!-- Video Grid (Mockup) -->
+    <!-- Data Source Logos Grid -->
     <div class="max-w-7xl mx-auto px-4">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {#each Array(8) as _, i}
-            <div class="aspect-video bg-gray-200 rounded-lg overflow-hidden relative group cursor-pointer">
-                <img src={`https://placehold.co/400x225/333/fff?text=Video+${i+1}`} alt="Video Thumbnail" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
-                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/20">
-                    <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                        <svg class="w-4 h-4 ml-0.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {#each ['Nielsen', 'GfK', 'Eurostat', 'Kantar', 'Statista', 'Ipsos', 'YouGov', 'Destatis'] as source}
+            <div class="aspect-video bg-white border border-gray-200 rounded-lg overflow-hidden flex items-center justify-center group hover:border-brand-green transition-colors">
+                <span class="text-2xl font-bold text-gray-400 group-hover:text-gray-900 transition-colors">{source}</span>
             </div>
             {/each}
         </div>
         
-        <!-- Quote -->
-        <div class="mt-12 flex flex-col md:flex-row items-center gap-8 max-w-5xl mx-auto">
-            <div class="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden flex-shrink-0 border-2 border-gray-100">
-                <img src="https://placehold.co/200x200/eee/333?text=User" alt="User" class="w-full h-full object-cover" />
-            </div>
-            <div class="flex-1 text-center md:text-left">
-                <blockquote class="text-2xl md:text-3xl font-serif-display text-green-600 leading-tight">
-                    "Such a great experience learning from the brightest group of people. Thanks for having me!"
-                </blockquote>
-                <div class="mt-4 text-xs font-bold uppercase tracking-widest text-gray-400">
-                    Michelle Huang <br/>
-                    <span class="text-gray-300">Head of Growth Marketing, Whop</span>
+        <!-- Trust Statement -->
+        <div class="mt-16 text-center max-w-3xl mx-auto">
+            <p class="text-lg text-gray-600 leading-relaxed">
+                Our AI panels are trained on aggregated, anonymized behavioral data from these trusted sources. 
+                <span class="text-gray-900 font-medium">Every data point is traceable, every methodology is transparent.</span>
+            </p>
+            <div class="mt-8 flex items-center justify-center gap-6 text-sm text-gray-500">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-brand-green" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span>GDPR Compliant</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-brand-green" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span>EU Hosted</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-brand-green" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    <span>Anonymized Data</span>
                 </div>
             </div>
         </div>

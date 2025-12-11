@@ -12,56 +12,54 @@
         
         <!-- Headline -->
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-serif-display text-gray-900 leading-[1.1] tracking-tight mb-6 max-w-5xl mx-auto">
-            Craft content <br class="hidden md:block" />
-            that wins 
+            Consumer insights <br class="hidden md:block" />
+            in minutes, 
             <span class="inline-flex items-center align-middle mx-1 md:mx-2 relative -top-1 md:-top-2">
-                <svg width="60" height="60" viewBox="0 0 100 100" class="w-10 h-10 md:w-16 md:h-16 text-[#2A9D8F] animate-spin-slow" fill="currentColor">
-                    <!-- Stylized Asterisk/Flower -->
-                    <path d="M50 0 L60 35 L95 25 L70 50 L95 75 L60 65 L50 100 L40 65 L5 75 L30 50 L5 25 L40 35 Z" />
+                <svg width="60" height="60" viewBox="0 0 100 100" class="w-10 h-10 md:w-16 md:h-16 text-brand-green" fill="currentColor">
+                    <!-- Data/Analytics Icon -->
+                    <circle cx="20" cy="80" r="8"/>
+                    <circle cx="50" cy="50" r="8"/>
+                    <circle cx="80" cy="30" r="8"/>
+                    <line x1="20" y1="80" x2="50" y2="50" stroke="currentColor" stroke-width="4" fill="none"/>
+                    <line x1="50" y1="50" x2="80" y2="30" stroke="currentColor" stroke-width="4" fill="none"/>
                 </svg>
             </span>
-            search
+            not weeks
         </h1>
 
         <!-- Subheadline -->
         <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            AirOps powers your content strategy, creation, and performance, helping your brand get seen, cited, and celebrated.
+            AI-powered consumer panels trained on real behavioral data. Get the validation you need to innovate faster—at 10x less cost.
         </p>
 
         <!-- CTA -->
-        <div class="mb-16">
-            <a href="#" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-gray-900 bg-brand-green hover:bg-brand-green-hover transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-                Book a Demo
+        <div class="mb-16 flex flex-col sm:flex-row gap-4 items-center justify-center">
+            <a href="#" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-brand-green hover:bg-brand-green-hover transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                Join Waitlist
                 <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </a>
+            <span class="text-sm text-gray-500">
+                <span class="inline-flex items-center gap-1">
+                    <svg class="w-4 h-4 text-brand-green" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                    89% accuracy on real behavioral data
+                </span>
+            </span>
         </div>
 
-        <!-- Video Player / Error State Recreation -->
-        <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl bg-black aspect-video relative group cursor-pointer">
-            <!-- Volume Icon -->
-            <div class="absolute top-6 right-6 z-20 text-gray-400">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-            </div>
-
-            <!-- Content -->
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
-                <!-- Play Button Circle -->
-                <div class="w-16 h-16 md:w-20 md:h-20 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center mb-6 group-hover:bg-white/20 transition-all">
-                    <svg class="w-8 h-8 md:w-10 md:h-10 text-white fill-current ml-1" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                    </svg>
-                </div>
-
-                <!-- Error Message Text (Recreating the screenshot detail) -->
-                <h3 class="text-white text-xl md:text-2xl font-medium mb-2">We couldn't verify the security of your connection.</h3>
-                <p class="text-gray-400 text-sm md:text-base max-w-lg">
-                    Access to this content has been restricted. Contact your internet service provider for help.
-                </p>
-            </div>
+        <!-- Hero Image -->
+        <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl bg-gray-100 aspect-video relative">
+            <img src="/generated/image-professional-fmcg-product-manager-review-1765485417540-0.webp" alt="FMCG product manager using TheConsumer AI platform" class="w-full h-full object-cover" />
             
-            <!-- Progress Bar (Fake) -->
-            <div class="absolute bottom-0 left-0 right-0 h-1 bg-gray-800">
-                <div class="h-full w-1/3 bg-brand-green"></div>
+            <!-- Overlay Badge -->
+            <div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-sm rounded-lg px-4 py-3 shadow-lg">
+                <div class="flex items-center gap-3">
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                        <span class="text-sm font-medium text-gray-900">Live Testing Session</span>
+                    </div>
+                    <div class="h-4 w-px bg-gray-300"></div>
+                    <span class="text-xs text-gray-600">500+ responses in 3 minutes</span>
+                </div>
             </div>
         </div>
     </div>
